@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require("commander");
+var install = require("./install.js");
+
+program
+  .version("0.0.1")
+  .usage("[commands] ...")
+  .command("install [module]")
+  .description("Local installation of [module] as if it were installed as a global module.")
+  .action(install);
+
+program.parse(process.argv);
+

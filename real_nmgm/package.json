@@ -1,0 +1,33 @@
+{
+  "name": "nmgm",
+  "version": "0.0.1",
+  "description": "No More Global Modules - local installation of global modules",
+  "main": "nmgm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devijvers/nmgm"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "global",
+    "install"
+  ],
+  "author": "Steven Devijver",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/devijvers/nmgm/issues"
+  },
+  "bin": {
+    "nmgm": "./bin/nmgm"
+  },
+  "dependencies": {
+    "colors": "0.6.2",
+    "commander": "2.0.0",
+    "asyncblock": "2.1.14",
+    "lodash": "1.3.1"
+  }
+}
